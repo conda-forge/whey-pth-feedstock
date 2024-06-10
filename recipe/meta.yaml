@@ -1,5 +1,5 @@
 {% set name = "whey-pth" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/whey-pth-{{ version }}.tar.gz
-  sha256: cbfcc723bc587ecde44c6b0c83270673d38d88c3fc8f8268a49b21db1fd60747
+  sha256: 088a60ab33575b75694be93a042a5cd83372ab082dfc07f79ace7d007fd5e4a3
 
 build:
   noarch: python
